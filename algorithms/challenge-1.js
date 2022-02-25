@@ -11,4 +11,7 @@ function noOfElements(x, y, z) {
   return count;
 }
 
+console.log((noOfElements([2,3,0,1,7],4,8)));
+
+
 module.exports = noOfElements;

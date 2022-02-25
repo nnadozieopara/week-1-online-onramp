@@ -1,0 +1,155 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    font-size: 1rem;
+}
+
+.text ul li{
+    list-style: none;
+    margin-right: 2em;
+    font-size: 1rem;
+}
+
+.text ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+#sneakers {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+.icon ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.icon ul li{
+    margin-left: 2em ;
+}
+
+.icon a{
+    text-decoration: none;
+}
+
+.icon a img{
+    display: block;
+    height: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+main{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.shoe-image{
+    width: 45%;
+}
+.big{
+    width: 100%;
+    border-radius: 2em;
+}
+
+.small{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.small-1{
+    width: 20%;
+    margin-top: 1em;
+}
+
+.small-1 img{
+    width: 100%;
+    border-radius: 1em;
+}
+
+.shoe-text{
+    width: 45%;
+}
+
+.shoe-text h3{
+    margin-top: 3em;
+    margin-bottom: 1em;
+    color: orange;
+}
+
+.shoe-text h2{
+    margin-bottom: 3em;
+}
+
+.shoe-text p{
+    color: grey;
+    text-align: justify;
+    margin-bottom: 2em;
+}
+.dollar{
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 1em;
+    color: black;
+}
+
+.percent{
+    display: inline-block;
+    color: orange;
+    background-color: rgb(190, 164, 115);
+    border-radius: 0.3em;
+    padding: 0.2em;
+}
+.strike{
+    color: grey;
+    text-decoration:line-through;
+    margin-bottom: 3em;
+}
+
+.minus,
+.plus
+{
+    display: inline-block;
+    color: orange;
+    margin-right: 1em;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.zero{
+    display: inline-block;
+    margin-right: 1em;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cart{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    padding: 0.4em 1em;
+    border-radius: 0.4em;
+}
